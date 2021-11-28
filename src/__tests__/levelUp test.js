@@ -8,9 +8,3 @@ test('should level up', () => {
   expect(character.attack).toBe(12);
   expect(character.defence).toBe(48);
 });
-
-test('should throw error', () => {
-  const character = new Daemon('User');
-  character.health = 0;
-  expect(() => character.levelUp().toThrow('This character is dead')
-)})

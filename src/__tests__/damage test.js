@@ -1,4 +1,3 @@
-import { ChunkGraph } from 'webpack';
 import Daemon from '../js/classes/Daemon';
 
 test('should get damage', () => {
